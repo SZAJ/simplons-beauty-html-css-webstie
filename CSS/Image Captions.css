@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* image caption styles */
+
+figure {
+	width:120px;
+
+	overflow: hidden;
+	position: relative;
+	float:left;
+	margin-left:2px;
+}
+
+figure:hover{
+
+}
+
+figcaption {
+	position: absolute;
+	display: block;
+	width: 120px;
+	height: 150px;
+	bottom: -120px;
+	text-align: center;
+	color: #333;
+	background-color: #FC0;
+	line-height: 40px;
+	border-radius: 5px 5px 0 0;
+	transition: bottom .5s;
+	margin-left: 1px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+figure:hover figcaption {
+	bottom: 1px;
+	color:#333;
+}

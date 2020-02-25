@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+
+
+
+.links{
+	background-color:#3b5998;
+	width:990px;
+	height:70px;
+	color:#fff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+
+}
+.links:hover{background-color:#333;
+color:#fff;
+font-size:17px;
+border-radius:3px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
